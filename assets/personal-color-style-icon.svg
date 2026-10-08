@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Personal Color Style icon</title>
+  <desc id="desc">Abstract portrait surrounded by balanced color swatches</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#202434"/>
+      <stop offset="1" stop-color="#455469"/>
+    </linearGradient>
+    <linearGradient id="face" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F1D3C2"/>
+      <stop offset="1" stop-color="#D5AA97"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="15" stdDeviation="18" flood-color="#10131D" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <circle cx="92" cy="100" r="46" fill="#88A2B5"/>
+  <circle cx="420" cy="100" r="46" fill="#A993AE"/>
+  <circle cx="92" cy="412" r="46" fill="#A2B2A0"/>
+  <circle cx="420" cy="412" r="46" fill="#B37B8E"/>
+  <g filter="url(#shadow)">
+    <rect x="129" y="82" width="254" height="348" rx="58" fill="#F8F6F3"/>
+    <circle cx="256" cy="211" r="72" fill="url(#face)"/>
+    <path d="M184 207 C188 118 324 118 328 207 C302 179 211 177 184 207 Z" fill="#2E2930"/>
+    <path d="M165 399 C176 304 212 280 256 280 C300 280 336 304 347 399 Z" fill="#6E7589"/>
+    <path d="M219 286 L256 342 L293 286 L306 399 H206 Z" fill="#E9DFD7"/>
+    <rect x="174" y="375" width="164" height="18" rx="9" fill="#8399AC"/>
+  </g>
+  <path d="M92 159 V220 M420 159 V220 M92 292 V353 M420 292 V353" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" opacity="0.35"/>
+</svg>

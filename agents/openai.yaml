@@ -1,0 +1,10 @@
+interface:
+  display_name: "个人色彩与形象指南"
+  short_description: "把授权人像转成三张可核验的个人配色与形象应用报告图片"
+  icon_small: "./assets/personal-color-style-icon.svg"
+  icon_large: "./assets/personal-color-style-icon.svg"
+  brand_color: "#778FA3"
+  default_prompt: "使用 $personal-color-style 根据我提供的人像生成三张个人配色与形象应用报告。"
+
+policy:
+  allow_implicit_invocation: true
